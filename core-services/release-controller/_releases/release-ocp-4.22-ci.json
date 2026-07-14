@@ -71,6 +71,13 @@
       },
       "upgrade": true
     },
+    "hypershift-e2e-v2-aws": {
+      "maxRetries": 1,
+      "prowJob": {
+        "name": "periodic-ci-openshift-hypershift-release-4.22-periodics-e2e-v2-aws"
+      },
+      "upgrade": true
+    },
     "claude-payload-agent": {
       "async": true,
       "optional": true,
